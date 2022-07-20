@@ -237,7 +237,7 @@ Figure above shows the *action client and action server graphical representation
 For the client and server to communicate, custom messages were defined on which they communicating. This defines the Goal, Feedback, and Result messages with which clients and servers communicate. Actionlib feature, an ActionServer will receives the goal message from an ActionClient. In this case, he goal is to move the robot's base position. The goal would be a MoveBaseGoal message that contains information about where the robot should move to in the world. For controlling all the robot positions in space, the goal would contain the target_pose parameters (stamp, orientation, target position, etc). Below is the code which demonstartes the client side of the action:
 
 ```python
-ddef action_client_init():
+def action_client_init():
 	
 	global client 
 	global goal
