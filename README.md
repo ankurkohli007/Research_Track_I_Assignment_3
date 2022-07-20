@@ -102,7 +102,7 @@ roslaunch final_assignment launch_files.launch
 ```
 After launching, four different windows will open i.e. four consoles od Gazebo & RViz.
 
-## Logic behind the code
+## Architecture of the code
 
 To fullfill the requirement, four different nodes were designed inside the package, the simulation is managed by the simulation which was provided by the professor, essentially **to install slam_gmapping package**. Here is the idea behind the communication of the nodes:
 
@@ -213,7 +213,7 @@ if __name__ == '__main__':
 ```
 ![alt text](Images/architecturemastercontrol.png) 
 
-Figure above shows the *master_control.py architecture*.
+Figure above shows the ***master_control.py architecture***.
 
 ![alt text](Images/master.PNG) 
 
@@ -230,7 +230,8 @@ client = actionlib.SimpleActionClient('/move_base', MoveBaseAction)
 ```
 The Action Client-Service communicate via a "ROS Action Protocol", which is built on top of ROS messages. The client and server then provide a simple API for users to request goals (on the client side) or to execute goals (on the server side) via function calls and callbacks. The *Actionclient* use the messages such as `MoveBaseAction` and `MoveBaseGoal`. the figure below shows a graphical rappresentation of the ROS-Action protocol: 
 
-![alt text](Images/actionclient.png) 
+![alt text](Images/actionclient.png)
+
 Figure above shows the *action client and action server graphical representation*. Figure source from [RESEARCH TRACK 1 course material](https://2021.aulaweb.unige.it/pluginfile.php/339049/mod_resource/content/0/researchtrack_class_6.pdf)
 
 For the client and server to communicate, custom messages were defined on which they communicating. This defines the Goal, Feedback, and Result messages with which clients and servers communicate. Actionlib feature, an ActionServer will receives the goal message from an ActionClient. In this case, he goal is to move the robot's base position. The goal would be a MoveBaseGoal message that contains information about where the robot should move to in the world. For controlling all the robot positions in space, the goal would contain the target_pose parameters (stamp, orientation, target position, etc). Below is the code which demonstartes the client side of the action:
@@ -337,7 +338,7 @@ This node aims to activate a security feature for driving with the teleop_key mo
 * From 431 to 575: which represents the front-left side of the scanned area.
 * From 576 to 719: which represents the left side of the scanned area.
 
-![alt text](Images/laser_scan.png) 
+![alt text](Images/laserscan.png) 
 
 Figure above shows the *laser_scan* strucutre of the robot.
 
@@ -442,7 +443,7 @@ Figure above shows the RQT Graph of Nodes Topics All.
 
 Figure above shows the *Assignment Process*.
 
-## Conclusion 
+## Conclusion & Future Improvements
 
 I'm satisfied with the final result, even if better improvements can be done.
 First of all some parameters can be changed since they may be not optimal. Having said that, there are 2 particular improvenments that I want to highlight:
