@@ -6,6 +6,8 @@
 
 # Assignment 3: Software Architecture for Mobile Robot Control
 
+You can also view the ***Sphinx Documentation*** of this assignment from the *url* https://ankurkohli007.github.io/Research_Track_II_Assignment_1_Documentation_Sphinx/.
+
 ## Abstract
 This assignment is the ***development of a software architecture for the control of a mobile robot***. This is also based on how to control the robot using [ROS](https://www.ros.org/) (Robot Operating System), [Gazebo and RViz](https://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros). The assignment consists in writing ROS nodes: a controller for a robot, and a UI. For this, ***Python*** programing is used. 
 
