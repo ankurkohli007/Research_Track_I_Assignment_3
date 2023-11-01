@@ -308,7 +308,7 @@ def CallBack_odometry(msg):
 	position_ = msg.pose.pose.position    
 ```
 <p align="center">
-  <img width="500" height="400" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/127522cbb9560f1d545900df732a5b94511c0ad1/Images/autonoous.PNG">
+  <img width="400" height="200" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/127522cbb9560f1d545900df732a5b94511c0ad1/Images/autonoous.PNG">
 </p>
 
 <p align="center">
