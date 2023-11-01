@@ -124,6 +124,9 @@ To fullfill the requirement, four different nodes were designed inside the packa
   <img width="700" height="800" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/ab599257e60f633c4736ad1320ab257f1e4a8e80/Images/codelogic.png">
 </p>
 
+<p align="center">
+    <em>Architecture of the task</em>
+</p> 
 
 Figure above shows the *logic of the code*. It shows that, user through the console of the *User Interface Node* which will decide the operation to change robot's behaviour, after that the robot will start it's operation and will show on the consoles of the operations the result of the task, wheter it was okay or if something is going wrong. Anyway, the most important part is to understand the usage of the operations.
 
