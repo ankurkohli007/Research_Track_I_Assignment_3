@@ -307,7 +307,14 @@ def CallBack_odometry(msg):
 	global position_
 	position_ = msg.pose.pose.position    
 ```
-![alt text](Images/autonoous.PNG) 
+<p align="center">
+  <img width="500" height="400" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/127522cbb9560f1d545900df732a5b94511c0ad1/Images/autonoous.PNG">
+</p>
+
+<p align="center">
+    <em>Graphical Representation of Action Client & Action Server</em>
+</p> 
+
 
 Figure above shows the *autonomous_drive.py terminal*.
 
