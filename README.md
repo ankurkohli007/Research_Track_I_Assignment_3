@@ -338,7 +338,7 @@ The logic of the code is really simple, so decided to use the already existing c
 </p>
 
 <p align="center">
-    <em>Terminal of Master Autonomous Drive Script</em>
+    <em>Terminal of Teleop Operation Script</em>
 </p> 
 
 Figure above shows the *teleop_operation.py terminal*.
