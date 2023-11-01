@@ -56,7 +56,10 @@ Figure above shows the view of ***Gazebo Environment***.
 
 * **RViz Visualization World**: *RViz* is a tool for ROS Visualization. It's a 3D visualization tool for ROS. It allows the user to view the simulated robot model, log sensor information from the robot's sensors, and replay the logged sensor information. By visualizing what the robot is seeing, thinking, and doing, the user can debug a robot application from sensor inputs to planned (or unplanned) actions.
 
-![alt text](Images/RViz.PNG) 
+<p align="center">
+  <img width="800" height="500" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/a0d6870abdddbe0e48409fc5e4510f7e42db38ee/Images/RViz.PNG">
+</p>
+
 
 Figure above shows the view of ***RViz Visualization World***.
 
