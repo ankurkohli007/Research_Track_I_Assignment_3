@@ -267,7 +267,7 @@ The Action Client-Service communicate via a "ROS Action Protocol", which is buil
 </p>
 
 <p align="center">
-    <em>Terminal of Master Control Script</em>
+    <em>Graphical Representation of Action Client & Action Server</em>
 </p> 
 
 Figure above shows the *action client and action server graphical representation*. Figure source from [RESEARCH TRACK 1 course material](https://2021.aulaweb.unige.it/pluginfile.php/339049/mod_resource/content/0/researchtrack_class_6.pdf)
