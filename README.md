@@ -46,6 +46,10 @@ For 3D rendering, Gazebo uses the OGRE engine. *(source from: [Wikipedia](https:
 
 ![alt text](Images/Gazebo.PNG) 
 
+<p align="center">
+    <em>Gazebo Environment</em>
+</p> 
+
 Figure above shows the view of ***Gazebo Environment***.
 
 * **RViz Visualization World**: *RViz* is a tool for ROS Visualization. It's a 3D visualization tool for ROS. It allows the user to view the simulated robot model, log sensor information from the robot's sensors, and replay the logged sensor information. By visualizing what the robot is seeing, thinking, and doing, the user can debug a robot application from sensor inputs to planned (or unplanned) actions.
