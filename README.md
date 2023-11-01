@@ -517,7 +517,7 @@ Figure above shows the RQT Graph of Nodes Topics All.
 ## Process of the assignment
 
 <p align="center">
-  <img width="1000" height="600" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/7b1fdb01405b4799cf956b487c6d3a201444b397/Images/assignmentprocess.png">
+  <img width="600" height="1000" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/7b1fdb01405b4799cf956b487c6d3a201444b397/Images/assignmentprocess.png">
 </p>
 
 <p align="center">
