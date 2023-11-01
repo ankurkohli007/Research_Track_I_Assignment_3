@@ -528,7 +528,13 @@ Figure above shows the *Assignment Process*.
 
 ## Performance of Mobile Robot Control
 
-![Alt Text](Images/finaloutput.gif)
+<p align="center">
+  <img width="1000" height="800" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/38413b887f6c8c957d0f482c8187cda5397f9e55/Images/finaloutput.gif">
+</p>
+
+<p align="center">
+    <em>Final Output</em>
+</p> 
 
 ## Conclusion & Future Improvements
 
