@@ -484,7 +484,13 @@ The whole ROS nodes net is independent of this node. In case the node wouldn't s
 ```
 rosrun rqt_graph rqt_graph
 ```
-![alt text](Images/nodesonlyrqt.png) 
+<p align="center">
+  <img width="800" height="600" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/c77a1c2e23689c738e527a2531c5479d087f0320/Images/nodesonlyrqt.png">
+</p>
+
+<p align="center">
+    <em>Nodes Only RQT Graph</em>
+</p> 
 
 Figure above shows the RQT Graph of Nodes Only.
 
