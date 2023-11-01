@@ -529,7 +529,7 @@ Figure above shows the *Assignment Process*.
 ## Performance of Mobile Robot Control
 
 <p align="center">
-  <img width="800" height="600" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/38413b887f6c8c957d0f482c8187cda5397f9e55/Images/finaloutput.gif">
+  <img width="1000" height="600" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/38413b887f6c8c957d0f482c8187cda5397f9e55/Images/finaloutput.gif">
 </p>
 
 <p align="center">
