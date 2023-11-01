@@ -509,14 +509,20 @@ Figure above shows the RQT Graph of Nodes Topics Active.
 </p>
 
 <p align="center">
-    <em>Nodes Topics Active RQT Graph</em>
+    <em>Nodes Topics All RQT Graph</em>
 </p> 
 
 Figure above shows the RQT Graph of Nodes Topics All. 
 
 ## Process of the assignment
 
-![alt text](Images/assignmentprocess.png)
+<p align="center">
+  <img width="1000" height="600" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/7b1fdb01405b4799cf956b487c6d3a201444b397/Images/assignmentprocess.png">
+</p>
+
+<p align="center">
+    <em>Process of the task</em>
+</p> 
 
 Figure above shows the *Assignment Process*.
 
