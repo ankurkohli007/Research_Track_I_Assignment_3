@@ -60,6 +60,9 @@ Figure above shows the view of ***Gazebo Environment***.
   <img width="800" height="500" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/a0d6870abdddbe0e48409fc5e4510f7e42db38ee/Images/RViz.PNG">
 </p>
 
+<p align="center">
+    <em>RViz World</em>
+</p> 
 
 Figure above shows the view of ***RViz Visualization World***.
 
