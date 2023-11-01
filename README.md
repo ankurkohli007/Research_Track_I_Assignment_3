@@ -391,7 +391,13 @@ This node aims to activate a security feature for driving with the teleop_key mo
 * From 431 to 575: which represents the front-left side of the scanned area.
 * From 576 to 719: which represents the left side of the scanned area.
 
-![alt text](Images/laserscan.png) 
+<p align="center">
+  <img width="700" height="400" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/4d50890fd97ed10c734bcfd237eb34de98f82033/Images/laserscan.png">
+</p>
+
+<p align="center">
+    <em>Terminal of Teleop Operation Script</em>
+</p> 
 
 Figure above shows the *laser_scan* strucutre of the robot.
 
