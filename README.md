@@ -485,7 +485,7 @@ The whole ROS nodes net is independent of this node. In case the node wouldn't s
 rosrun rqt_graph rqt_graph
 ```
 <p align="center">
-  <img width="800" height="200" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/c77a1c2e23689c738e527a2531c5479d087f0320/Images/nodesonlyrqt.png">
+  <img width="1000" height="200" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/c77a1c2e23689c738e527a2531c5479d087f0320/Images/nodesonlyrqt.png">
 </p>
 
 <p align="center">
