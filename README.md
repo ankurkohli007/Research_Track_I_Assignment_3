@@ -312,7 +312,7 @@ def CallBack_odometry(msg):
 </p>
 
 <p align="center">
-    <em>Graphical Representation of Action Client & Action Server</em>
+    <em>Terminal of Master Autonomous Drive Script</em>
 </p> 
 
 
