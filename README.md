@@ -262,7 +262,13 @@ client = actionlib.SimpleActionClient('/move_base', MoveBaseAction)
 ```
 The Action Client-Service communicate via a "ROS Action Protocol", which is built on top of ROS messages. The client and server then provide a simple API for users to request goals (on the client side) or to execute goals (on the server side) via function calls and callbacks. The *Actionclient* use the messages such as `MoveBaseAction` and `MoveBaseGoal`. the figure below shows a graphical rappresentation of the ROS-Action protocol: 
 
-![alt text](Images/actionclient.png)
+<p align="center">
+  <img width="700" height="500" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/e4077fcf71144dd1c5a6861ebefdfb1b6a0d792c/Images/actionclient.png">
+</p>
+
+<p align="center">
+    <em>Terminal of Master Control Script</em>
+</p> 
 
 Figure above shows the *action client and action server graphical representation*. Figure source from [RESEARCH TRACK 1 course material](https://2021.aulaweb.unige.it/pluginfile.php/339049/mod_resource/content/0/researchtrack_class_6.pdf)
 
