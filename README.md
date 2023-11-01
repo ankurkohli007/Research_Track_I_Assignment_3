@@ -241,7 +241,13 @@ if __name__ == '__main__':
 
 Figure above shows the ***master_control.py architecture***.
 
-![alt text](Images/master.PNG) 
+<p align="center">
+  <img width="900" height="800" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/10f749b0669d94d81e729ddabaa900333183fee5/Images/master.PNG">
+</p>
+
+<p align="center">
+    <em>Terminal of Master Control Script</em>
+</p> 
 
 Figure above shows the *master_control.py terminal*.
 
