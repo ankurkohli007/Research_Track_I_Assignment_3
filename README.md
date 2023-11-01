@@ -242,7 +242,7 @@ if __name__ == '__main__':
 Figure above shows the ***master_control.py architecture***.
 
 <p align="center">
-  <img width="900" height="800" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/10f749b0669d94d81e729ddabaa900333183fee5/Images/master.PNG">
+  <img width="500" height="500" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/10f749b0669d94d81e729ddabaa900333183fee5/Images/master.PNG">
 </p>
 
 <p align="center">
