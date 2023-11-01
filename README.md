@@ -495,7 +495,7 @@ rosrun rqt_graph rqt_graph
 Figure above shows the RQT Graph of Nodes Only.
 
 <p align="center">
-  <img width="1000" height="200" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/0809f78d087c0da1b09c6d63b347cd09ab83c0ac/Images/nodestopicsactive.png">
+  <img width="1000" height="400" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/0809f78d087c0da1b09c6d63b347cd09ab83c0ac/Images/nodestopicsactive.png">
 </p>
 
 <p align="center">
