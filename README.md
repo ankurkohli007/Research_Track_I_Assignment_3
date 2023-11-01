@@ -44,7 +44,9 @@ Gazebo can use multiple high-performance physics engines, such as ODE, Bullet, e
 
 For 3D rendering, Gazebo uses the OGRE engine. *(source from: [Wikipedia](https://en.wikipedia.org/wiki/Gazebo_simulator))*.
 
-![alt text](Images/Gazebo.PNG) 
+<p align="center">
+  <img width="700" height="600" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/51cb6fdaeb1bf18fae70861d01bfe1509193b874/Images/Gazebo.PNG">
+</p>
 
 <p align="center">
     <em>Gazebo Environment</em>
