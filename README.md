@@ -132,7 +132,7 @@ Figure above shows the *logic of the code*. It shows that, user through the cons
 
 ## Description of the Nodes & their logics
 
-## User Interface Node: master_control.py
+### User Interface Node: master_control.py
 
 The user interface node is a super easy node because it is used only to set the ROS parameters travelling through the nodes. The most important one is the integer ```active``` which is the one dedicated to the modality of the robot. The other two are the desired positions which are useful only for the first modality. **Three parameters** were added in the `launch_nodes.launch` file manage the different activation state of all the nodes involved in the project. Parameters are as follows:
 
@@ -239,7 +239,7 @@ Figure above shows the ***master_control.py architecture***.
 
 Figure above shows the *master_control.py terminal*.
 
-## Autonomous Drive Node: autonomous_drive.py
+### Autonomous Drive Node: autonomous_drive.py
 
 This is the operation 1 where the robot has to reach the target (set by user end in master_control.py) by itself.
 
@@ -293,7 +293,7 @@ def CallBack_odometry(msg):
 
 Figure above shows the *autonomous_drive.py terminal*.
 
-## Teleop Node: teleop_operation.py
+### Teleop Node: teleop_operation.py
 
 The script is based on the standard ROS teleop_twist_keyboard.py. This node is constantly checking which keys are pressed on a PC keyboard and based on the pressed keys, publishes twist messages on the `/cmd_vel` topic. Twist message defines what should be the linear and rotational speeds of a mobile robot.
 
@@ -347,7 +347,7 @@ speedBindings={
         'c':(1,.9),
     }
 ```
-## Obstacle Avoidance Node: obstacle_avoidance.py
+### Obstacle Avoidance Node: obstacle_avoidance.py
 
 This node aims to activate a security feature for driving with the teleop_key modality. The **subscription** to the `/laser_scan` topic, the node will be able to get info about the robot's surroundings. The subscription to the topic will give back the `ranges[0,720]` array to the subscribed callback. This data structure contains the distance values between the robot and the surrounding walls for a span of 180º degrees in front of the robot. The array simulates the info that a set of lasers would retrieve in an actual environment.  The node will later elaborate the data acquired to publish it on the `custom_controller` custom topic through the `Avoid.msg` custom message.
 
