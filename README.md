@@ -231,7 +231,13 @@ if __name__ == '__main__':
 	print(msg)
 	main()
 ```
-![alt text](Images/architecturemastercontrol.png) 
+<p align="center">
+  <img width="900" height="800" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/e19424df5248f99f474c59608a1cabf239b18e06/Images/architecturemastercontrol.png">
+</p>
+
+<p align="center">
+    <em>Master Control Script Architecture</em>
+</p> 
 
 Figure above shows the ***master_control.py architecture***.
 
