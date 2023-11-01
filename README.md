@@ -121,7 +121,7 @@ After launching, four different windows will open i.e. four consoles od Gazebo &
 To fullfill the requirement, four different nodes were designed inside the package, the simulation is managed by the simulation which was provided by the professor, essentially **to install slam_gmapping package**. Here is the idea behind the communication of the nodes:
 
 <p align="center">
-  <img width="700" height="800" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/ab599257e60f633c4736ad1320ab257f1e4a8e80/Images/codelogic.png">
+  <img width="900" height="800" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/ab599257e60f633c4736ad1320ab257f1e4a8e80/Images/codelogic.png">
 </p>
 
 <p align="center">
