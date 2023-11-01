@@ -504,7 +504,13 @@ Figure above shows the RQT Graph of Nodes Only.
 
 Figure above shows the RQT Graph of Nodes Topics Active.
 
-![alt text](Images/nodestopicall.png) 
+<p align="center">
+  <img width="1000" height="600" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_3/blob/5f7225d8455fb5fe6bfb7aa43eab2f86e9ac18ae/Images/nodestopicall.png">
+</p>
+
+<p align="center">
+    <em>Nodes Topics Active RQT Graph</em>
+</p> 
 
 Figure above shows the RQT Graph of Nodes Topics All. 
 
