@@ -322,12 +322,15 @@ Figure above shows the *autonomous_drive.py terminal*.
 
 The script is based on the standard ROS teleop_twist_keyboard.py. This node is constantly checking which keys are pressed on a PC keyboard and based on the pressed keys, publishes twist messages on the `/cmd_vel` topic. Twist message defines what should be the linear and rotational speeds of a mobile robot.
 
+<p align="center">
+<em>
 | Direction   |      Key      |
 |----------|:-------------:|
 | Straight |  'i/I' | 
 | Right |    'l/L'   | 
 | Left | 'j/J' |
-| Back | 'k/K' |
+| Back | 'k/K' |</em>
+</p> 
 
 The logic of the code is really simple, so decided to use the already existing code of the package ***teleop_twist_keyboard*** the code, is open to be realaborated on their github repository, here's the [link](http://wiki.ros.org/teleop_twist_keyboard), as we can see it's pretty easy and the things implemented in this is simple.
 
